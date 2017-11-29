@@ -1,0 +1,32 @@
+/* pokemons.php - style pour l'impression */
+
+*{
+	margin-top:0;
+}
+
+header,footer,aside,p{
+	display:none;
+}
+
+img{
+	width:10mm;
+}
+
+img.classtype{
+	width:8mm;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+th{
+	font-weight: bold;
+}
+
+th, td{
+	padding:2mm;
+	font-family:sans-serif;
+	text-align: center;
+	border:0.5mm solid #000;
+}
